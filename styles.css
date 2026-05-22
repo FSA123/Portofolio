@@ -857,7 +857,8 @@ code { white-space: pre; }
 .pill--st   { border-color: rgba(255,75,75,.3); color: #fca5a5; }
 .pill--esp  { border-color: rgba(139,92,246,.3); color: #c4b5fd; }
 .pill--cpp  { border-color: rgba(68,130,236,.3); color: #93c5fd; }
-.pill--yolo { border-color: rgba(34,211,238,.3); color: #67e8f9; }
+.pill--yolo   { border-color: rgba(34,211,238,.3);  color: #67e8f9; }
+.pill--kotlin { border-color: rgba(127,82,255,.3);  color: #c4b5fd; }
 
 /* ================================================================
    PROJECTS
@@ -922,6 +923,25 @@ code { white-space: pre; }
 .proj-icon--green  { background: var(--green-dim);  color: var(--green);  }
 .proj-icon--amber  { background: var(--amber-dim);  color: var(--amber);  }
 .proj-icon--rose   { background: var(--rose-dim);   color: var(--rose);   }
+
+/* Project badge labels (e.g. "End-to-End", "In Progress") */
+.proj-badge {
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  background: var(--cyan-dim);
+  border: 1px solid rgba(34,211,238,.25);
+  border-radius: 999px;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+.proj-badge--wip {
+  color: var(--amber);
+  background: var(--amber-dim);
+  border-color: rgba(251,191,36,.25);
+}
 
 .proj-link {
   display: flex;

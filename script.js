@@ -163,11 +163,11 @@
 
   const words = [
     'IoT Systems',
-    'Web Applications',
+    'Android Apps',
+    'Embedded Firmware',
     'Computer Vision',
-    'Embedded Software',
-    'Full-Stack Apps',
-    'AI-Powered Tools',
+    'Custom PCBs',
+    'Full-Stack Systems',
   ];
 
   let wordIdx = 0, charIdx = 0, deleting = false;
